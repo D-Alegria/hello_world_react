@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.css";
 import "./appStyles.css";
-import Form from "./components/Form";
+import LifeCycleA from "./components/LifeCycleA";
 
 function App() {
-  return <div className="App">
-    <Form/>
-  </div>;
+  return (
+    <div className="App">
+      <LifeCycleA />
+    </div>
+  );
 }
 
 export default App;
